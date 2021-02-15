@@ -52,7 +52,7 @@ button{
     border:none;
     position:relative;
     height:15px;
-    font-size:0.1em;
+    font-size:0.6em;
     padding:0.5em;
     cursor:pointer;
     transition:800ms ease all;
