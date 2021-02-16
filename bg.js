@@ -5,7 +5,7 @@ const IMG_NUMBER =4;
 
 function paintImage(imgNumber){
 const image = new Image();
-image.src= "https://source.unsplash.com/user/erondu/1600x900"                  //`image/${imgNumber +1}.jpg`; 랜덤 이미지 가지고있는 파일 중 ㅇㅇ
+image.src= "https://source.unsplash.com/user/chan123123312/likes/1600x900"                  //`image/${imgNumber +1}.jpg`; 랜덤 이미지 가지고있는 파일 중 ㅇㅇ
 image.classList.add("bgImage");
 body.prepend(image);
 }
