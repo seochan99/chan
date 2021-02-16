@@ -1,15 +1,18 @@
 body{
     background-color :#62729c;
-    color:white;
+    color:whitesmoke;
     text-align: center;
     margin-top: 10%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
+.js-clock h1{
+    font-size: 3em;
+}
 .js-weather{
     font-weight: bold;
 }
+
 .btn{
     background-color: transparent;
 }
@@ -48,31 +51,32 @@ font-family: 'Montserrat', sans-serif;
 }
 
 button{
-    background:#1AAB8A;
+    background:#676dc9;
     color:#fff;
     border:none;
     position:relative;
-    height:15px;
-    font-size:1.0em;
+    height:21px;
+    font-size:1.5em;
     padding:0.5em;
     cursor:pointer;
     transition:800ms ease all;
     outline: none;
     border-radius: 8px;
 
+
   }
   button:hover{
     background:#fff;
-    color:#1AAB8A;
+    color:#676dc9;
   }
   button:before,button:after{
-    content:'';
+    content:' ';
     position:absolute;
     top:0;
-    right:0;
+    right: 0;
     height:2px;
     width:0;
-    background: #1AAB8A;
+    background: #676dc9;
     transition:400ms ease all;
   }
   button:after{
@@ -86,8 +90,11 @@ button{
     transition:800ms ease all;
   }
 
-  li{
+  
+  li {
       font-size: 0.5em;
       text-align: center;
+      right: 0px;
+
         list-style: none;
     }
